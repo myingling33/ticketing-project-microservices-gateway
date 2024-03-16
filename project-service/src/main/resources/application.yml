@@ -57,6 +57,7 @@ resilience4j:
         slidingWindowSize: 2
         waitDurationInOpenState: 10000
         slidingWindowType: COUNT_BASED
+#    The instances are optional
     instances:
       user-service:
         baseConfig: default
